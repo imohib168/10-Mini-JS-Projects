@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+
+    transition: 0.5s linear;
+    color: 0.3s linear;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+label {
+    transition: 0.5s linear;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.dark label {
+    background-color: white;
+}
+
+input {
+    visibility: hidden;
+}
